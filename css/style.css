@@ -1,0 +1,275 @@
+
+*{
+	font-family: 'Open Sans', Sans-serif;
+}
+
+.background{
+	background: url(../img/ligth.jpg) no-repeat fixed center; 
+	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/****** MENU***************************/
+header{
+
+	position: fixed;
+	width: 100%;
+	top:-16px;
+	z-index: 1;
+	
+}
+
+
+
+.main-menu{
+	
+	/*background:white;*/
+	text-align: right;	
+
+}
+
+	/***** LOGO DENTRO DE MENU****/
+
+	.logo{
+
+		position: fixed;
+		top: 15px;
+		left: 30px;
+		text-decoration: none;
+		font-size: 23px;
+		/*color:black;*/
+		color:white;
+	}
+
+		/***LOGO EN NEGRO PARA SCROLL***/
+
+	.logo-black{
+
+		position: fixed;
+		top: 15px;
+		left: 30px;
+		text-decoration: none;
+		font-size: 23px;
+		/*color:black;*/
+		color:black;
+	}
+
+	/**** FIN LOGO MENU******/
+
+
+	.menu-li{
+		display: inline-block;
+		list-style: none;
+		padding: 20px 20px;
+
+	}
+
+		.menu-li-a{
+
+			text-decoration: none;
+			color:white;
+			z-index: 1;
+		}
+
+		.menu-li-a:hover{
+			color:#2e4353;
+		}
+
+		.menu-li-a-black{
+			text-decoration: none;
+			color:black;
+			z-index: 1;
+		}
+
+		.menu-li-a-black:hover{
+			color:#2e4353;
+		}
+
+/**ICONO MENU RESPONSIVO****/
+.MenuIcon{
+	display: none;
+}
+
+.Menu-header{
+	
+	position: fixed;
+	padding: 20px;
+	width: 100%;
+	background: rgba(255, 255, 255, 1);
+	
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+   
+}
+
+/*** BARRA BLANCA MENU AL HACER SCROLL********/
+.main-menu-white{
+	background-color: white;
+	text-align: right;
+
+	-webkit-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+
+	-webkit-transition:0.4s;
+	-moz-transition:0.4s;
+}
+
+
+
+.content{
+
+	width: 100%;
+	height: 100vh;
+
+}
+
+	.btn-mas{
+		font-family: 'Open Sans', Sans-serif;
+			position: absolute;
+			border: 2px solid white;
+			text-decoration: none;
+			padding: 11px 15px;
+			color:white;
+			top: 65%; 
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+	}
+
+		.btn-mas:hover{
+
+			background: white;
+			color:black;
+			font-weight: bold;
+		}
+
+		h1{
+			color:white;
+			text-align: center;
+			position: relative;
+			top:40%;
+			font-size: 2.5em;
+
+		}
+		
+		.h2-inicio{
+
+			color:white;
+			text-align: center;
+			position: relative;
+			top:39%;
+			font-size: 1.5em;	
+		}
+
+
+
+.content-about{
+	top:-20px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+
+	}
+
+/* .content-about-back{
+
+ 	background-color: white;
+ 	-o-transform:skewY(-10deg);
+	-moz-transform:skewY(-10deg);
+	-webkit-transform:skewY(-10deg);
+	transform:skewY(-10deg);
+}
+ 
+.no-skew{
+		-o-transform:skewY(0deg);
+	-moz-transform:skewY(0deg);
+	-webkit-transform:skewY(0deg);
+	transform:skewY(0deg);
+}
+*/
+	h2{
+		text-align: center;
+		position: relative;
+		top:2em;
+		/*left: 150px;*/
+		font-size: 2.5em;
+		color:#2e4353;
+		
+		
+	}
+	
+	.logoazul{
+		color:#23cdda;
+	}
+	.logoazul:hover{
+		border-radius: 50%;	
+		background-color: white;
+	}
+
+	.logomaszul{
+		color:#996699;
+	}
+	.image-about{
+		display: inline-block;
+		position:relative;
+		top:5em;
+		left: 45%;		
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;	
+	}
+
+	.text-about{
+		padding: 7em 11em 2em 11em;
+		text-align: justify;
+		color:#476170;
+		font-size: 1.3em;
+	}
+
+	
+
+	.the-articles{
+		text-align: center;
+
+	}
+
+		.article-about{
+			display: inline-block;
+			width: 25%;			
+			color:#476170;
+			padding: 20px;
+			/*border-right-style: dotted;*/
+			vertical-align: top;
+		}
+
+		.borders{
+			border-right-style: dotted;
+			
+		}
+
+		.article-about:hover{
+			background-color: #476170;
+			color:white;
+		}
+
+		.article-about:hover span{
+			border-radius: 50%;	
+				background-color: white;
+		}
+
+		.no-border{
+			border-right-style: none;
+		}
+
+		.article-about p{
+			text-align: justify;
+			
+		}
+
+		.the-articles span{
+			text-align: center;
+			font-size: 3em;
+		}
+

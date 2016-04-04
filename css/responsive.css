@@ -1,0 +1,65 @@
+@media only screen and (max-width:780px){
+
+	body{
+	
+	overflow-x:hidden; 
+	}
+
+	h1, h2{
+		top:30%;
+	}
+
+	.h2-about{
+		font-size: 1.8em;
+	}
+
+	.image-about{
+		margin-top: 60px;
+	}
+
+	.text-about{
+		padding: 4em 2em 2em 2em;
+	}
+
+	.center{
+		width: 90%;
+	}
+	
+	.btn-mas{
+
+	}
+	
+}
+
+
+@media only screen and(max-width: 780px){
+
+	.preportfolio{
+
+		background: url(../img/proy-mobile-devices.jpg); 
+		
+	}
+
+	.content{
+	
+	background: url(../img/light-mobile-devices.jpg); 
+	
+	}
+
+	.precontact{
+		background: url(../img/contact-mobile-devices.jpg);
+
+	}
+
+	.bottom{
+		
+		margin-bottom: -150px;
+	}
+
+	.footer{
+		height: 700px;
+		margin-top:50px;
+	}
+}
+
+

@@ -1,0 +1,394 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden; 
+
+}
+
+
+
+/*====LOADER======*/
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #000;
+    z-index: 100;
+}
+
+#loader {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:50%; top:50%;
+    background: url(../img/loader.gif) no-repeat center 0;
+    margin:-50px 0 0 -50px;
+}
+
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+.navbar-default .navbar-nav > li >a {
+	color:white;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav > li >a:hover{
+	color:#1fbad6;
+}
+
+.navbar-default .navbar-brand{
+	color:white;
+	font-size: 1.6em;
+}
+
+.navbar-default .navbar-brand:hover{
+	color:#1fbad6;
+}
+
+
+/*=========== MENU SCROLL ============*/
+.main-menu-white{
+	background-color: white;
+	-webkit-box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.75);
+}
+
+
+.brand-black{
+	color:black;
+}
+
+	.brand-black:hover{
+		color:#1fbad6;
+	}
+
+
+/*============ PAGINA DE INICIO ============*/
+
+.content{
+	width: 100%;
+	height: 100vh;
+	
+	margin-top:-20px;
+
+	background: url(../img/ligth.jpg) no-repeat fixed center; 
+	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+		
+	
+}
+
+h1{
+	color:white;
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+	top:50%;
+}
+
+h2{
+	color:white;
+	font-size: 1.8em;
+	position: relative;
+	text-align: center;
+	top: 50%;
+}
+
+	h2 span{
+		color:#1fbad6;
+	}
+
+
+
+.btn-mas{
+	font-family: 'Open Sans', Sans-serif;
+	font-size: 1.1em;
+	color:white;
+	padding: 11px 7px;
+	text-decoration: none;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top:75%;
+	border: 2px solid white;
+	transform: translate(-50%, -50%);
+}
+
+	.btn-mas:hover{
+		color:black;
+		background-color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+
+/*================= PAGINA CONOCEME (ABOUT) =============*/	
+
+.content-about{
+	width: 100%;
+	height:100%;
+	margin-top:0px;
+
+	background-color: #ebeded;
+	
+}
+
+
+
+	.h2-about{
+		font-size: 2.9em;
+		color:#203240;
+		margin-top: 80px;
+	}
+
+	.content-about h3{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+.image-about{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	text-align: center;
+	margin-top:40px;
+
+}
+
+.text-about{
+	padding: 7em 9em 2em 9em;
+	text-align: justify;
+	color:#476170;
+	font-size: 1.3em;
+}
+
+/** TOP PARA CONTENEDOR DE COLUMNAS**/
+.margintop{
+	margin-top: 50px;
+}
+/******************************************/
+.article-text{
+	font-size: 1.3em;
+	font-family: 'Open Sans', Sans-serif;
+	margin-bottom: 40px;
+	
+}
+	.border-right{
+		margin-left:10px; 
+		border-right-style: dotted;
+		border-height:10px;
+	}
+
+.center{
+	text-align: center;
+	width: 80%;
+}
+
+.icon-size{
+	font-size: 5em;
+}
+
+.icon-size-sm{
+	font-size: 1.4em;
+	font-family: 'Open Sans', Sans-serif;
+}
+/*============ PORTAFOLIO ==============*/
+
+.preportfolio{
+	width: 100%;
+	height:50vh;
+	
+	margin-top: -20px;
+
+	background: url(../img/proy.jpg) no-repeat fixed center; 
+	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+	.preportfolio h2{
+		font-family: 'Open Sans', Sans-serif;	
+		font-size: 3.5em;
+		text-shadow:1px 1px 1px #000;
+	}
+
+.content-portfolio{
+	width: 100%;
+	height:100%;
+	
+	margin-top: 50px;
+	background-color: white;
+	
+}
+
+.image-bottom{
+	margin-bottom: 40px;
+}
+
+.center-porta{
+	text-align: center;
+	width: 87%;
+	margin-left:8%;
+}
+
+.img-hover:hover{
+	background-color: black;
+	color:white;
+}
+
+
+/*===== MODIFICAR HOVER EFECTOS ====*/
+
+.ih-item.square{
+
+	width: 100%;
+	height: 100%;
+}
+
+.ih-item.effect6.colored.from_top_and_bottom .info{
+	background:rgba(31,186,214,0.8)
+	
+}
+
+.ih-item.effect6.colored.from_top_and_bottom .info p{
+	color:white;
+}
+
+
+.color-blanco{
+	color:white;
+}
+
+
+/*============= CONTENIDO CONTACTO =====================*/
+
+
+.precontact{
+
+	width: 100%;
+	height:50vh;
+	
+
+	background: url(../img/contact.jpg) no-repeat fixed center; 
+	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+	.precontact h2{
+		font-family: 'Open Sans', Sans-serif;	
+		font-size: 3.5em;
+		text-shadow:1px 1px 1px #000;
+		text-align: center;
+		position: relative;
+		top: 30%;
+
+	}
+
+	.precontact h3{
+		font-family: 'Open Sans', Sans-serif;	
+		font-size: 2em;
+		color:white;
+		text-shadow:1px 1px 1px #000;
+		text-align: center;
+		position: relative;
+		top:30%;
+	}
+
+
+.content-contact{
+	width:100%;
+	height:100vh;
+	
+	background-color: white;
+	
+}
+
+
+	.content-contact h3{
+		font-family: 'Open Sans', Sans-serif;
+		font-family: 2em;
+		text-align: center;
+		margin-top: 30px;
+		padding-bottom: 50px;
+	}
+
+
+.form-group.bottom{
+	margin-bottom: 50px;
+}
+
+.btn-enviar{
+	border-bottom: 1px solid;
+	text-decoration: none;
+	font-family: 'Open Sans', Sans-serif;
+	font-size: 1.5em;
+	color:black;
+	padding: 0.2em;
+}
+	.btn-enviar:hover{
+		border: 1px solid;
+		text-decoration: none;
+		background-color: white;
+		color:black;
+		padding: 0.2em;
+	}
+
+.bottom-mapa{
+	padding-bottom: 30px;
+}
+.bottom-info{
+	margin-top: -10px;
+	padding-bottom: 50px;
+}
+
+	.bottom-info h4{
+		margin-bottom: 20px;
+		font-size: 1.5em;
+	}
+
+	.info-p{
+		font-size: 1.3em;
+		font-family: 'Open sans', Sans-serif;
+	}
+
+
+
+.pad-bottom{
+	padding-bottom: 250px;
+}
+/*========== FOOTER ================*/
+
+.footer{
+	width: 100%;
+	height: 500px;
+	background-color:#1fbad6;
+	color:white;
+	position: static;
+
+	
+}
+
+.a-format{
+	color:white;
+	font-size: 1.2em;
+}
+
+	.a-format:hover{
+		text-decoration: none;
+	}
+
+.top-footer{
+	margin-top: 35px;
+}
